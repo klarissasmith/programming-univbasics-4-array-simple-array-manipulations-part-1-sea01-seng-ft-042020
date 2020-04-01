@@ -7,7 +7,7 @@ end
 def using_pop(array)
   array.pop
 end
-def pop_with_args(array, number)
+def pop_with_args(array, number, fire)
   array.pop[number]
-  array.pop
+  array.pop(fire)
 end
